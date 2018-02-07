@@ -8175,6 +8175,9 @@ a.text-dark:focus, a.text-dark:hover {
 /* Generic Style */
 body {
   font-family: 'Oxygen', sans-serif;
+  background-color: #fffff;
+  background-image: url(images/jas.jpg);
+  background-repeat: repeat-y;
 }
 
 .btn {
@@ -8185,4 +8188,27 @@ body {
   border: none;
   font-size: 14px;
   padding: 12px 16px;
+}
+
+.wrapper{
+  float:left;
+  display:inline;
+
+}
+
+figure {
+  /* width:200px; */
+  /* height:300px; */
+  overflow:hidden;
+  background-image: url(images/jas-goofy.png);
+  transition: all 1s ease-in-out;
+  background-repeat: repeat-n;
+  margin: 5px;
+}
+
+figure:hover {
+  overflow:hidden;
+  -webkit-animation: switch 5s infinite; /* Chrome, Safari, Opera */
+    animation: switch 5s infinite;
+   background-repeat: repeat-n;
 }
