@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardHorizontalComponent } from './cards/card-horizontal/card-horizontal.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeroComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CardHorizontalComponent
   ],
   imports: [
     BrowserModule,
