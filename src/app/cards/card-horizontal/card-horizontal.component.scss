@@ -2,9 +2,9 @@
   .card-text {
     padding: 0 5rem 0;
   }
-  .card-image {
-    background-image: url('/assets/images/hero.jpg');
-    height: 100px;
-    width: 100px;
+  .card-image img{
+    // background-image: url('/assets/images/hero.jpg');
+    height: 360px;
+    width: 100%;
   }
 }
