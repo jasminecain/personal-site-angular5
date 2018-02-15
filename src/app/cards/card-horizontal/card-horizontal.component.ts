@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-horizontal',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-horizontal.component.scss']
 })
 export class CardHorizontalComponent implements OnInit {
+
+  @Input()  position: string;
 
   constructor() { }
 
